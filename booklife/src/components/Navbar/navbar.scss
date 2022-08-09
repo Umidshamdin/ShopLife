@@ -1,0 +1,41 @@
+.navbar {
+  height: 110px !important;
+  z-index: 1999 !important;
+  background-color: white;
+  .navImg {
+    width: 200px;
+    height: 110px;
+    border-radius: 20px;
+    
+  }
+  .form-control {
+    width: 909px;
+  }
+  .d-flex {
+    .btn-primary{
+      --bs-btn-bg: none !important;    }
+    .fas {
+      margin-left: 6px;
+      margin-top: 8px;
+      color: black;
+    }
+  }
+  .user {
+    display: flex;
+    margin-top: 8px;
+    .btn{
+      margin-top: -6px !important;
+    }
+    .fa-heart {
+      margin-left: 13px;
+      font-size: 24px;
+    }
+    .fa-user {
+      font-size: 24px;
+    }
+    .fa-shopping-cart {
+      font-size: 24px;
+      margin-left: 13px;
+    }
+  }
+}
