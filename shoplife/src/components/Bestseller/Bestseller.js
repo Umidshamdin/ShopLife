@@ -43,11 +43,16 @@ function Bestseller() {
           <h3>
             <img
               className="sliderImgs"
+              src={require("../../img/Image-24.webp")}
+              alt=""
+            />
+             <img
+              className="sliderImgss"
               src={require("../../img/book-794978__340.webp")}
               alt=""
             />
             <p>by: Huqo</p>
-            <h5>Sefiller</h5>
+            <h5>100 selected poems</h5>
             <div className="bookPrise d-flex">
               <del>40 AZN</del>
               <h6>30 AZN</h6>
@@ -59,11 +64,16 @@ function Bestseller() {
           <h3>
             <img
               className="sliderImgs"
+              src={require("../../img/Image-24.webp")}
+              alt=""
+            />
+             <img
+              className="sliderImgss"
               src={require("../../img/book-794978__340.webp")}
               alt=""
             />
             <p>by: Huqo</p>
-            <h5>Sefiller</h5>
+            <h5>100 selected poems</h5>
             <div className="bookPrise d-flex">
               <del>40 AZN</del>
               <h6>30 AZN</h6>
@@ -75,11 +85,16 @@ function Bestseller() {
           <h3>
             <img
               className="sliderImgs"
+              src={require("../../img/Image-24.webp")}
+              alt=""
+            />
+             <img
+              className="sliderImgss"
               src={require("../../img/book-794978__340.webp")}
               alt=""
             />
             <p>by: Huqo</p>
-            <h5>Sefiller</h5>
+            <h5>100 selected poems</h5>
             <div className="bookPrise d-flex">
               <del>40 AZN</del>
               <h6>30 AZN</h6>
@@ -91,26 +106,16 @@ function Bestseller() {
           <h3>
             <img
               className="sliderImgs"
+              src={require("../../img/Image-24.webp")}
+              alt=""
+            />
+             <img
+              className="sliderImgss"
               src={require("../../img/book-794978__340.webp")}
               alt=""
             />
             <p>by: Huqo</p>
-            <h5>Sefiller</h5>
-            <div className="bookPrise d-flex">
-              <del>40 AZN</del>
-              <h6>30 AZN</h6>
-            </div>
-          </h3>
-        </div>
-        <div className="slider">
-          <h3>
-            <img
-              className="sliderImgs"
-              src={require("../../img/book-794978__340.webp")}
-              alt=""
-            />
-            <p>by: Huqo</p>
-            <h5>Sefiller</h5>
+            <h5>100 selected poems</h5>
             <div className="bookPrise d-flex">
               <del>40 AZN</del>
               <h6>30 AZN</h6>
@@ -122,32 +127,129 @@ function Bestseller() {
           <h3>
             <img
               className="sliderImgs"
+              src={require("../../img/Image-24.webp")}
+              alt=""
+            />
+             <img
+              className="sliderImgss"
               src={require("../../img/book-794978__340.webp")}
               alt=""
             />
             <p>by: Huqo</p>
-            <h5>Sefiller</h5>
+            <h5>100 selected poems</h5>
             <div className="bookPrise d-flex">
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
           </h3>
         </div>
-         <div className="slider">
+
+        <div className="slider">
           <h3>
             <img
               className="sliderImgs"
+              src={require("../../img/Image-24.webp")}
+              alt=""
+            />
+             <img
+              className="sliderImgss"
               src={require("../../img/book-794978__340.webp")}
               alt=""
             />
             <p>by: Huqo</p>
-            <h5>Sefiller</h5>
+            <h5>100 selected poems</h5>
             <div className="bookPrise d-flex">
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
           </h3>
         </div>
+
+        <div className="slider">
+          <h3>
+            <img
+              className="sliderImgs"
+              src={require("../../img/Image-24.webp")}
+              alt=""
+            />
+             <img
+              className="sliderImgss"
+              src={require("../../img/book-794978__340.webp")}
+              alt=""
+            />
+            <p>by: Huqo</p>
+            <h5>100 selected poems</h5>
+            <div className="bookPrise d-flex">
+              <del>40 AZN</del>
+              <h6>30 AZN</h6>
+            </div>
+          </h3>
+        </div>
+
+        <div className="slider">
+          <h3>
+            <img
+              className="sliderImgs"
+              src={require("../../img/Image-24.webp")}
+              alt=""
+            />
+             <img
+              className="sliderImgss"
+              src={require("../../img/book-794978__340.webp")}
+              alt=""
+            />
+            <p>by: Huqo</p>
+            <h5>100 selected poems</h5>
+            <div className="bookPrise d-flex">
+              <del>40 AZN</del>
+              <h6>30 AZN</h6>
+            </div>
+          </h3>
+        </div>
+
+        <div className="slider">
+          <h3>
+            <img
+              className="sliderImgs"
+              src={require("../../img/Image-24.webp")}
+              alt=""
+            />
+             <img
+              className="sliderImgss"
+              src={require("../../img/book-794978__340.webp")}
+              alt=""
+            />
+            <p>by: Huqo</p>
+            <h5>100 selected poems</h5>
+            <div className="bookPrise d-flex">
+              <del>40 AZN</del>
+              <h6>30 AZN</h6>
+            </div>
+          </h3>
+        </div>
+
+        <div className="slider">
+          <h3>
+            <img
+              className="sliderImgs"
+              src={require("../../img/Image-24.webp")}
+              alt=""
+            />
+             <img
+              className="sliderImgss"
+              src={require("../../img/book-794978__340.webp")}
+              alt=""
+            />
+            <p>by: Huqo</p>
+            <h5>100 selected poems</h5>
+            <div className="bookPrise d-flex">
+              <del>40 AZN</del>
+              <h6>30 AZN</h6>
+            </div>
+          </h3>
+        </div>
+
+
 
       </Slider>
     </div>
