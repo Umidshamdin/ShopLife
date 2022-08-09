@@ -19,6 +19,7 @@ function CategoryCarusel() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nulla.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, mollitia!/
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, officiis.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, ut.
       </div>
     </div>
   );
