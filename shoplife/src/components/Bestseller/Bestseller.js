@@ -39,15 +39,15 @@ function Bestseller() {
   return (
     <div className="container mt-5">
       <Slider {...settings}>
-        <div className="slider">
-          <h3>
+        <div className="bestseller">
+          <div className="bestsellerCarusel">
             <img
-              className="sliderImgs"
+              className="bestsellerImgOne"
               src={require("../../img/Image-24.webp")}
               alt=""
             />
-             <img
-              className="sliderImgss"
+            <img
+              className="bestsellerImgTwo"
               src={require("../../img/book-794978__340.webp")}
               alt=""
             />
@@ -57,18 +57,23 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-          </h3>
+
+            <div className="eyes">
+              <i className="fas fa-eye"></i>
+            </div>
+            <i className="far fa-heart"></i>
+          </div>
         </div>
 
-        <div className="slider">
-          <h3>
+        <div className="bestseller">
+          <div className="bestsellerCarusel">
             <img
-              className="sliderImgs"
+              className="bestsellerImgOne"
               src={require("../../img/Image-24.webp")}
               alt=""
             />
-             <img
-              className="sliderImgss"
+            <img
+              className="bestsellerImgTwo"
               src={require("../../img/book-794978__340.webp")}
               alt=""
             />
@@ -78,18 +83,22 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-          </h3>
-        </div>
 
-        <div className="slider">
-          <h3>
+            <div className="eyes">
+              <i className="fas fa-eye"></i>
+            </div>
+            <i className="far fa-heart"></i>
+          </div>
+        </div>
+        <div className="bestseller">
+          <div className="bestsellerCarusel">
             <img
-              className="sliderImgs"
+              className="bestsellerImgOne"
               src={require("../../img/Image-24.webp")}
               alt=""
             />
-             <img
-              className="sliderImgss"
+            <img
+              className="bestsellerImgTwo"
               src={require("../../img/book-794978__340.webp")}
               alt=""
             />
@@ -99,18 +108,23 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-          </h3>
+
+            <div className="eyes">
+              <i className="fas fa-eye"></i>
+            </div>
+            <i className="far fa-heart"></i>
+          </div>
         </div>
 
-        <div className="slider">
-          <h3>
+        <div className="bestseller">
+          <div className="bestsellerCarusel">
             <img
-              className="sliderImgs"
+              className="bestsellerImgOne"
               src={require("../../img/Image-24.webp")}
               alt=""
             />
-             <img
-              className="sliderImgss"
+            <img
+              className="bestsellerImgTwo"
               src={require("../../img/book-794978__340.webp")}
               alt=""
             />
@@ -120,18 +134,23 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-          </h3>
+
+            <div className="eyes">
+              <i className="fas fa-eye"></i>
+            </div>
+            <i className="far fa-heart"></i>
+          </div>
         </div>
 
-        <div className="slider">
-          <h3>
+        <div className="bestseller">
+          <div className="bestsellerCarusel">
             <img
-              className="sliderImgs"
+              className="bestsellerImgOne"
               src={require("../../img/Image-24.webp")}
               alt=""
             />
-             <img
-              className="sliderImgss"
+            <img
+              className="bestsellerImgTwo"
               src={require("../../img/book-794978__340.webp")}
               alt=""
             />
@@ -141,18 +160,23 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-          </h3>
+
+            <div className="eyes">
+              <i className="fas fa-eye"></i>
+            </div>
+            <i className="far fa-heart"></i>
+          </div>
         </div>
 
-        <div className="slider">
-          <h3>
+        <div className="bestseller">
+          <div className="bestsellerCarusel">
             <img
-              className="sliderImgs"
+              className="bestsellerImgOne"
               src={require("../../img/Image-24.webp")}
               alt=""
             />
-             <img
-              className="sliderImgss"
+            <img
+              className="bestsellerImgTwo"
               src={require("../../img/book-794978__340.webp")}
               alt=""
             />
@@ -162,18 +186,23 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-          </h3>
+
+            <div className="eyes">
+              <i className="fas fa-eye"></i>
+            </div>
+            <i className="far fa-heart"></i>
+          </div>
         </div>
 
-        <div className="slider">
-          <h3>
+        <div className="bestseller">
+          <div className="bestsellerCarusel">
             <img
-              className="sliderImgs"
+              className="bestsellerImgOne"
               src={require("../../img/Image-24.webp")}
               alt=""
             />
-             <img
-              className="sliderImgss"
+            <img
+              className="bestsellerImgTwo"
               src={require("../../img/book-794978__340.webp")}
               alt=""
             />
@@ -183,74 +212,13 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-          </h3>
-        </div>
 
-        <div className="slider">
-          <h3>
-            <img
-              className="sliderImgs"
-              src={require("../../img/Image-24.webp")}
-              alt=""
-            />
-             <img
-              className="sliderImgss"
-              src={require("../../img/book-794978__340.webp")}
-              alt=""
-            />
-            <p>by: Huqo</p>
-            <h5>100 selected poems</h5>
-            <div className="bookPrise d-flex">
-              <del>40 AZN</del>
-              <h6>30 AZN</h6>
+            <div className="eyes">
+              <i className="fas fa-eye"></i>
             </div>
-          </h3>
+            <i className="far fa-heart"></i>
+          </div>
         </div>
-
-        <div className="slider">
-          <h3>
-            <img
-              className="sliderImgs"
-              src={require("../../img/Image-24.webp")}
-              alt=""
-            />
-             <img
-              className="sliderImgss"
-              src={require("../../img/book-794978__340.webp")}
-              alt=""
-            />
-            <p>by: Huqo</p>
-            <h5>100 selected poems</h5>
-            <div className="bookPrise d-flex">
-              <del>40 AZN</del>
-              <h6>30 AZN</h6>
-            </div>
-          </h3>
-        </div>
-
-        <div className="slider">
-          <h3>
-            <img
-              className="sliderImgs"
-              src={require("../../img/Image-24.webp")}
-              alt=""
-            />
-             <img
-              className="sliderImgss"
-              src={require("../../img/book-794978__340.webp")}
-              alt=""
-            />
-            <p>by: Huqo</p>
-            <h5>100 selected poems</h5>
-            <div className="bookPrise d-flex">
-              <del>40 AZN</del>
-              <h6>30 AZN</h6>
-            </div>
-          </h3>
-        </div>
-
-
-
       </Slider>
     </div>
   );
