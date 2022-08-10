@@ -76,7 +76,6 @@
   .fa-heart {
     right: 12px;
     font-size: 23px;
-    background-color: #fff;
 
     display: none;
   }
@@ -100,6 +99,7 @@
   }
   &:hover .eyes {
     display: block;
+    opacity: 0.5;
     .fas {
       position: absolute;
       margin-left: 100px;

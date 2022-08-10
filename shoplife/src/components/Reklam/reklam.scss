@@ -6,3 +6,12 @@
 //   }
 // }
 
+.exam1:hover {
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  30% {
+    transform: translate(11px, 0px) rotate(2deg);
+  }
+}
