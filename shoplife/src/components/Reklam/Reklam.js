@@ -12,6 +12,8 @@ function Reklam() {
               src={require("../../img/1.webp")}
               alt=""
             />
+
+            <button className="btn1">Shop now</button>
           </div>
         </div>
         <div className="col-4">

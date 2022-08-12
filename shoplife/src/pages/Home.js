@@ -14,8 +14,9 @@ function Home() {
       <Category/>
       <Slider />
       <Bestseller/>
-      <Reklam></Reklam>
       <CategoryCarusel></CategoryCarusel>
+
+      <Reklam></Reklam>
 
     </>
   );
