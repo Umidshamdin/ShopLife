@@ -2,7 +2,7 @@ import React from "react";
 import "../Reklam/reklam.scss";
 function Reklam() {
   return (
-    <div className="container">
+    <div className="container mt-5">
       <div className="row">
         <div className="col-4">
           <div className="exam">
@@ -24,6 +24,8 @@ function Reklam() {
               src={require("../../img/1.webp")}
               alt=""
             />
+
+            <button className="btn1">Shop now</button>
           </div>
         </div>
 
@@ -35,6 +37,8 @@ function Reklam() {
               src={require("../../img/1.webp")}
               alt=""
             />
+
+            <button className="btn1">Shop now</button>
           </div>
         </div>
       </div>

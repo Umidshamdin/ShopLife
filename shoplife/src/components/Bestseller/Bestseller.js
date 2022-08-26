@@ -39,7 +39,7 @@ function Bestseller() {
   return (
     <div className="container mt-5">
       <Slider {...settings}>
-        <div className="bestseller">
+        <div className="bestseller px-1">
           <div className="bestsellerCarusel">
             <img
               className="bestsellerImgOne"
@@ -57,15 +57,18 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-
+{/* 
             <div className="eyes">
               <i className="fas fa-eye"></i>
-            </div>
+            </div> */}
             <i className="far fa-heart"></i>
+            <div className="addCart">
+              <button className="btn btn-primary">Add</button>
+            </div>
           </div>
         </div>
 
-        <div className="bestseller">
+        <div className="bestseller px-1">
           <div className="bestsellerCarusel">
             <img
               className="bestsellerImgOne"
@@ -83,14 +86,18 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-
+{/* 
             <div className="eyes">
               <i className="fas fa-eye"></i>
-            </div>
+            </div> */}
             <i className="far fa-heart"></i>
+            <div className="addCart">
+              <button className="btn btn-primary">Add</button>
+            </div>
           </div>
         </div>
-        <div className="bestseller">
+
+        <div className="bestseller px-1">
           <div className="bestsellerCarusel">
             <img
               className="bestsellerImgOne"
@@ -108,15 +115,17 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-
+{/* 
             <div className="eyes">
               <i className="fas fa-eye"></i>
-            </div>
+            </div> */}
             <i className="far fa-heart"></i>
+            <div className="addCart">
+              <button className="btn btn-primary">Add</button>
+            </div>
           </div>
         </div>
-
-        <div className="bestseller">
+        <div className="bestseller px-1">
           <div className="bestsellerCarusel">
             <img
               className="bestsellerImgOne"
@@ -134,15 +143,17 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-
+{/* 
             <div className="eyes">
               <i className="fas fa-eye"></i>
-            </div>
+            </div> */}
             <i className="far fa-heart"></i>
+            <div className="addCart">
+              <button className="btn btn-primary">Add</button>
+            </div>
           </div>
         </div>
-
-        <div className="bestseller">
+        <div className="bestseller px-1">
           <div className="bestsellerCarusel">
             <img
               className="bestsellerImgOne"
@@ -160,15 +171,17 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-
+{/* 
             <div className="eyes">
               <i className="fas fa-eye"></i>
-            </div>
+            </div> */}
             <i className="far fa-heart"></i>
+            <div className="addCart">
+              <button className="btn btn-primary">Add</button>
+            </div>
           </div>
         </div>
-
-        <div className="bestseller">
+        <div className="bestseller px-1">
           <div className="bestsellerCarusel">
             <img
               className="bestsellerImgOne"
@@ -186,39 +199,18 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-
+{/* 
             <div className="eyes">
               <i className="fas fa-eye"></i>
-            </div>
+            </div> */}
             <i className="far fa-heart"></i>
+            <div className="addCart">
+              <button className="btn btn-primary">Add</button>
+            </div>
           </div>
         </div>
 
-        <div className="bestseller">
-          <div className="bestsellerCarusel">
-            <img
-              className="bestsellerImgOne"
-              src={require("../../img/Image-24.webp")}
-              alt=""
-            />
-            <img
-              className="bestsellerImgTwo"
-              src={require("../../img/book-794978__340.webp")}
-              alt=""
-            />
-            <p>by: Huqo</p>
-            <h5>100 selected poems</h5>
-            <div className="bookPrise d-flex">
-              <del>40 AZN</del>
-              <h6>30 AZN</h6>
-            </div>
 
-            <div className="eyes">
-              <i className="fas fa-eye"></i>
-            </div>
-            <i className="far fa-heart"></i>
-          </div>
-        </div>
       </Slider>
     </div>
   );
