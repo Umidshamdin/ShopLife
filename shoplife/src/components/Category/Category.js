@@ -12,7 +12,7 @@ function Category() {
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            Kateqoriyalar
+            Kitablar
           </button>
           <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
             <li>

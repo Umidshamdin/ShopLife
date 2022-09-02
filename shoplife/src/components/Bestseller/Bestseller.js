@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import "../Bestseller/bestseller.scss";
 function Bestseller() {
@@ -38,6 +39,11 @@ function Bestseller() {
   };
   return (
     <div className="container mt-5">
+      <Link to={"/BestsellerPage"}>
+      <h6>View all</h6>
+      </Link>
+    
+
       <Slider {...settings}>
         <div className="bestseller px-1">
           <div className="bestsellerCarusel">
@@ -57,7 +63,7 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-{/* 
+            {/* 
             <div className="eyes">
               <i className="fas fa-eye"></i>
             </div> */}
@@ -86,7 +92,7 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-{/* 
+            {/* 
             <div className="eyes">
               <i className="fas fa-eye"></i>
             </div> */}
@@ -115,7 +121,7 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-{/* 
+            {/* 
             <div className="eyes">
               <i className="fas fa-eye"></i>
             </div> */}
@@ -143,7 +149,7 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-{/* 
+            {/* 
             <div className="eyes">
               <i className="fas fa-eye"></i>
             </div> */}
@@ -171,7 +177,7 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-{/* 
+            {/* 
             <div className="eyes">
               <i className="fas fa-eye"></i>
             </div> */}
@@ -199,7 +205,7 @@ function Bestseller() {
               <del>40 AZN</del>
               <h6>30 AZN</h6>
             </div>
-{/* 
+            {/* 
             <div className="eyes">
               <i className="fas fa-eye"></i>
             </div> */}
@@ -209,8 +215,6 @@ function Bestseller() {
             </div>
           </div>
         </div>
-
-
       </Slider>
     </div>
   );
