@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../Category/category.scss";
 function Category() {
   return (
@@ -12,65 +13,77 @@ function Category() {
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            Kitablar
+            Kateqoriyalar
           </button>
+
           <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li>
-              <a className="dropdown-item" href="#">
-                Action
+            <li className="parent">
+              <a href="#">
+                <button className="btn btn-primary w-100">Kitablar</button>
               </a>
+              <ul class="child">
+                <li class="parent">
+                  <a href="#">
+                    Video Games <span class="expand">»</span>
+                  </a>
+                  <ul class="child">
+                    <li>
+                      <a href="#">Car</a>
+                    </li>
+                    <li>
+                      <a href="#">Bike Race</a>
+                    </li>
+                    <li>
+                      <a href="#">Fishing</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Barbies</a>
+                </li>
+                <li>
+                  <a href="#">Teddy Bear</a>
+                </li>
+                <li>
+                  <a href="#">Golf Set</a>
+                </li>
+              </ul>
             </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Another action
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Something else here
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Action
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Another action
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Something else here
-              </a>
-            </li>
-          </ul>
-          <ul className="pages">
-            <li className="pagesName">
-              <a href="">Home</a>
-              
-            </li>
-            <li className="pagesName">
-              <a href="">Blog</a>
-              
-            </li>
-            <li className="pagesName">
-              <a href="">About</a>
-              
-            </li>
-            <li className="pagesName">
-              <a href="">Contact</a>
-              
-            </li>
-          </ul>
 
+            <li className="parent">
+              <a href="#">
+                <button className="btn btn-primary w-100 mt-3">Telefonlar</button>
+              </a>
+              <ul class="child">
+                <li class="parent">
+                  <a href="#">
+                    Video Games <span class="expand">»</span>
+                  </a>
+                  <ul class="child">
+                    <li>
+                      <a href="#">Car</a>
+                    </li>
+                    <li>
+                      <a href="#">Bike Race</a>
+                    </li>
+                    <li>
+                      <a href="#">Fishing</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Barbies</a>
+                </li>
+                <li>
+                  <a href="#">Teddy Bear</a>
+                </li>
+                <li>
+                  <a href="#">Golf Set</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-       
-
-    
-
-       
       </div>
     </div>
   );

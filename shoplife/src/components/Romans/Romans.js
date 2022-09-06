@@ -1,13 +1,14 @@
 import React from "react";
-import "../BestsellerList/bestsellerlist.scss";
+import { Link } from "react-router-dom";
+import "./romans.scss";
 
-function BestsellerList() {
+function Romans() {
   return (
     <div className="container mt-5">
       <div className="row"></div>
       <div className="row">
         <div className="col-sm-12 col-lg-2 col-md-12">
-          <input type="range" />
+         
         </div>
         <div className="col-10">
           <div className="row">
@@ -37,9 +38,12 @@ function BestsellerList() {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
-                  <a href="#" class="btn btn-primary">
-                    Go somewhere
-                  </a>
+                  <Link to={"/RomanDetail"}>
+
+                    Go
+                  </Link>
+
+                  
                 </div>
               </div>
             </div>
@@ -217,4 +221,4 @@ function BestsellerList() {
   );
 }
 
-export default BestsellerList;
+export default Romans;

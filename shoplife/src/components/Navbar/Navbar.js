@@ -4,17 +4,20 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
 function Navbars() {
   return (
     <Navbar sticky="top">
       <Container>
         <Navbar.Brand href="#home">
-          <img
-            className="navImg"
-            src={require("../../img/download.png")}
-            alt=""
-          />
+          <Link to="/">
+            <img
+              className="navImg"
+              src={require("../../img/7c7aa88fb91bb71dd3169fe04e074d60.jpg")}
+              alt=""
+            />
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -42,7 +45,6 @@ function Navbars() {
                 <div
                   className="modal fade"
                   id="exampleModal"
-                 
                   aria-labelledby="exampleModalLabel"
                   aria-hidden="true"
                 >
@@ -59,7 +61,12 @@ function Navbars() {
                           aria-label="Close"
                         ></button>
                       </div>
-                      <div className="modal-body">...</div>
+                      <div className="modal-body d-flex">
+                        <button className="btn btn-primary">
+                          <Link to="/Login">Login</Link>
+                        </button>
+                        <button className="btn btn-primary">Register</button>
+                      </div>
                       <div className="modal-footer">
                         <button
                           type="button"
